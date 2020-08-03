@@ -21,7 +21,7 @@ export const fetchSmurf = () => {
         const smurfs = smurfEntries.map((smurf) => {
           const smurfId = smurf[0];
           const smurfData = smurf[1];
-          console.log(smurfData);
+          //   console.log(smurfData);
           return { id: smurfId, ...smurfData };
         });
 
